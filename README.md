@@ -35,6 +35,10 @@ To get you started, a set of packages have been integrated:
 Without those, installation of remote packages over HTTPS connections was
 not possible.
 
+## Sponsor
+
+Work on this was made possible thanks to [AREA 17](http://www.area17.com).
+
 ## License
 
 All the code contained in this repository, unless explicitly stated, is
