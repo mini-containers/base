@@ -21,7 +21,7 @@ CMD ["/bin/sh"]
 
 And install or extend with packages as you please.
 
-You can find a list of packages you can install on Alpine Linux [Packages](http://alpinelinux.org/packages)
+You can find a list of packages you can install on Alpine Linux [Packages](http://forum.alpinelinux.org/packages)
 section.
 
 ### Included packages
