@@ -14,6 +14,7 @@ Use this as base for your own containers:
 
 ```dockerfile
 FROM mini/base
+
 RUN apk-install <packagename>
 
 CMD ["/bin/sh"]
