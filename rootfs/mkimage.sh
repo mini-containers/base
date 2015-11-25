@@ -60,7 +60,7 @@ while getopts "hr:m" opt; do
 done
 
 REL=${REL:-edge}
-MIRROR=${MIRROR:-http://nl.alpinelinux.org/alpine}
+MIRROR=${MIRROR:-http://alpine.gliderlabs.com/alpine}
 REPO=$MIRROR/$REL/main
 ARCH=$(uname -m)
 
