@@ -6,7 +6,10 @@ package manager to ease installation of extra packages and help you build
 smaller development containers.
 
 This is possible thanks to the work from [uggedal](https://github.com/uggedal)
-on packaging [Alpine Linux for Docker](https://github.com/uggedal/docker-alpine).
+on packaging Alpine Linux for Docker.
+
+This project is now build on top of official [Alpine Linux](https://hub.docker.com/_/alpine/)
+image, only including some convenience packages and scripts on top.
 
 ## Usage
 

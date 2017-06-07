@@ -1,10 +1,9 @@
-FROM       scratch
-MAINTAINER Luis Lavena <luislavena@gmail.com>
+FROM alpine:3.6
 
-ADD ./rootfs.tar.xz /
+# ensure latest packages are part of the image
+RUN apk upgrade --no-cache
 
-ADD ./scripts/apk-install /usr/sbin/apk-install
-RUN apk update && apk upgrade
+COPY ./scripts/apk-install /usr/sbin/apk-install
 
 # Base packages useful for other containers
 RUN apk-install ca-certificates curl wget
